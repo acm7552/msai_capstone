@@ -208,11 +208,11 @@ If you use this code in your research, please cite:
 
 ```bibtex
 @article{
-  andrew,
+  andrewmurphymsaicapstone2026,
   title="MSAI-Capstone",
   author="Andrew Murphy",
   institution="RIT",
-  year="202x"
+  year="2026"
 }
 ```
 

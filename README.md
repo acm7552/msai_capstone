@@ -125,14 +125,33 @@ See respective repository READMEs for training, data setup,
 ## Results & Visualization
 
 
-| Metric | Value |
-|--------|-------|
-| Accuracy | X% |
-| Precision | X% |
-| Recall | X% |
+### AI_ArtBench Results
+
+| Model              | Acc | AP   | AUC  |
+|-------------------|----------|------|------|
+| ResNet50         | .985       | .986  | .998   |
+| CLIP             | .642       | .674   | .770   |
+| AEROBLADE        | X%       | X%   | X%   |
+| RIGID            | .530       | .5247   | .512   |
+| LOTA             | .333       | X%   | X%   |
+| SPAI             | X%       | X%   | X%   |
 
 
-## Acknowledgement
+### ARIA Results
+
+| Model              | Acc | AP   | AUC  |
+|-------------------|----------|------|------|
+| ResNet50         | .899      | .908   | .890  |
+| CLIP             | .875      | .876   | .933   |
+| AEROBLADE        | X      | X   | X   |
+| RIGID            | .946     | .989  | .9879   |
+| LOTA             | .126     | X   | X   |
+| SPAI             | .741      | .969   | .823   |
+
+
+
+## Acknowledgements
+
 
 The following works were selected for for this study. We thank their authors for their contribution.
 

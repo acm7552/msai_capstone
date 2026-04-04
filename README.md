@@ -33,7 +33,7 @@ A comparative analysis of State-of-the-Art AI image detection methods applied to
       - [Other Models](#other-models)
       - [Training and Evaluation](#training-and-evaluation)
   - [Results \& Visualization](#results--visualization)
-  - [Acknowledgement](#acknowledgement)
+  - [Acknowledgements](#acknowledgements)
   - [Citation](#citation)
   - [License](#license)
 
@@ -124,17 +124,17 @@ See respective repository READMEs for training, data setup,
 
 ## Results & Visualization
 
-
+WIP: Metrics with blank values are currently being calculated from output results, or weren't obtained due to time or sotrage constraints. These results are coming soon.
 ### AI_ArtBench Results
 
 | Model              | Acc | AP   | AUC  |
 |-------------------|----------|------|------|
 | ResNet50         | .985       | .986  | .998   |
 | CLIP             | .642       | .674   | .770   |
-| AEROBLADE        | X%       | X%   | X%   |
+| AEROBLADE        |  -      |  -  | -   |
 | RIGID            | .530       | .5247   | .512   |
-| LOTA             | .333       | X%   | X%   |
-| SPAI             | X%       | X%   | X%   |
+| LOTA             | .333       | -   | -   |
+| SPAI             | -       | -   | -   |
 
 
 ### ARIA Results
@@ -143,9 +143,9 @@ See respective repository READMEs for training, data setup,
 |-------------------|----------|------|------|
 | ResNet50         | .899      | .908   | .890  |
 | CLIP             | .875      | .876   | .933   |
-| AEROBLADE        | X      | X   | X   |
+| AEROBLADE        | -     | -   | -   |
 | RIGID            | .946     | .989  | .9879   |
-| LOTA             | .126     | X   | X   |
+| LOTA             | .126     | -   | -   |
 | SPAI             | .741      | .969   | .823   |
 
 

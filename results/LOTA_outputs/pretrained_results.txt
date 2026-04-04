@@ -1,0 +1,9 @@
+[Evaluating dataset: ARIA]
+(1) AI Classification Accuracy: 0.0026
+(2) Natural Image Accuracy: 0.9994
+Subset Performance: 0.1260
+[Evaluating dataset: ArtBench]
+(1) AI Classification Accuracy: 0.4993
+(2) Natural Image Accuracy: 0.0021
+Subset Performance: 0.3336
+[Global Accuracy: 0.2701]

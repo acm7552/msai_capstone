@@ -1,0 +1,11 @@
+AIArtBench, Image number: 2048, similarity is 0.9908914566040039
+loading ARIA images
+ARIA, Image number: 2048, similarity is 0.9046156406402588
+Detection Results AUC:
+Dataset: ARIA                      | AUC: 0.9879 | FPR95: 0.0576
+------------------------------------------------------------
+Average AUC: 0.9879 | Average FPR95: 0.0576
+Detection Results AP:
+Dataset: ARIA                      | AP: 0.9888
+----------------------------------------
+Average AP: 0.9888

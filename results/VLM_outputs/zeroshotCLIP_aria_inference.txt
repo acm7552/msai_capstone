@@ -1,0 +1,15 @@
+Zero-shot CLIP results
+Accuracy : 0.8749
+Precision: 0.8763
+Recall   : 0.9981
+F1 Score : 0.9332
+
+Classification Report
+              precision    recall  f1-score   support
+
+        Real       0.15      0.00      0.00      1633
+          AI       0.88      1.00      0.93     11562
+
+    accuracy                           0.87     13195
+   macro avg       0.52      0.50      0.47     13195
+weighted avg       0.79      0.87      0.82     13195

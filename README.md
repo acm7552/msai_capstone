@@ -116,15 +116,14 @@ Because zero-shot VLM prompting requires no training, there is only the inferenc
 
 ### Other Models
 
-See respective repository READMEs for training, data setup, 
-
+See respective repository READMEs for setting up the proper Python environment, data setup, training (if desired), evaluation. For this study, the only datasets required and used are AI-ArtBench and ARIA. Adjust config files as necessary for performing inference on the desired data.
 
 ### Training and Evaluation
 
 
 ## Results & Visualization
 
-WIP: Metrics with blank values are currently being calculated from output results, or weren't obtained due to time or sotrage constraints. These results are coming soon.
+WIP: Metrics with blank values are currently being calculated from output results, or weren't obtained due to time or storage constraints. These results are coming soon.
 ### AI_ArtBench Results
 
 | Model              | Acc | AP   | AUC  |

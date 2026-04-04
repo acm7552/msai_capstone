@@ -95,7 +95,7 @@ msai_capstone/
 
 ### Datasets - ARIA and AI-ArtBench
 
-AiArtBench.py and ARIAdataset.py contain functions to load the datasets to be used for the comparative analysis. They are imported into the testing and evaluation files. download_AI_ArtBench.py was used to download AI-ArtBench images to Narnia, while zip files for ARIA were manually uploaded and placed in the datasets folder. The AI-ArtBench dataset can be downloaded [here](https://www.kaggle.com/datasets/ravidussilva/real-ai-art/data), or via the API script at ``. The ARIA dataset can be downloaded [here](https://github.com/AdvAIArtProject/AdvAIArt?tab=readme-ov-file).
+AiArtBench.py and ARIAdataset.py contain functions to load the datasets to be used for the comparative analysis. They are imported into the testing and evaluation files. download_AI_ArtBench.py was used to download AI-ArtBench images to Narnia, while zip files for ARIA were manually uploaded and placed in the datasets folder. The AI-ArtBench dataset can be downloaded [here](https://www.kaggle.com/datasets/ravidussilva/real-ai-art/data), or via the API script at `download_AI_ArtBench.py`. The ARIA dataset can be downloaded [here](https://github.com/AdvAIArtProject/AdvAIArt?tab=readme-ov-file).
 
 
 ## SavedModels

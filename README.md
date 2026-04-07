@@ -57,7 +57,7 @@ pip install -e .
 
 Clone the following repositories and follow their respective installation guides. Place projects in the `scripts/` directory. Certain files have been configured to accept the AI-ArtBench and ARIA datasets instead of the datasets used in their original experimentation, and should be overwritten with the versions contained in this repository. Those files can be found in the appropriate project files in the `scripts/` directory. The models for this study can be found here:
 
-#### AEROBLADE: AEROBLADE: Training-Free Detection of Latent Diffusion Images Using Autoencoder Reconstruction Error: https://github.com/jonasricker/aeroblade
+#### AEROBLADE: Training-Free Detection of Latent Diffusion Images Using Autoencoder Reconstruction Error: https://github.com/jonasricker/aeroblade
 
 #### RIGID: A Training-free and Model-Agnostic Framework for Robust AI-Generated Image Detection: https://github.com/IBM/RIGID/
 
@@ -118,9 +118,17 @@ Because zero-shot VLM prompting requires no training, there is only the inferenc
 
 ### Usage examples:
 
-```python resnet50baseline.py --epochs 10 --dataset aria --eval True --save False```
-```python inference_resnet50baseline.py root/path/toModelHere```
-```python zeroshotVLM.py --dataset artbench```
+```
+python resnet50baseline.py --epochs 10 --dataset aria --eval True --save False
+```
+
+```
+python inference_resnet50baseline.py root/path/toModelHere
+```
+
+```
+python zeroshotVLM.py --dataset artbench
+```
 
 ### Other Models
 
@@ -130,8 +138,6 @@ See respective repository READMEs for setting up the proper Python environment, 
 
 
 ## Results & Visualization
-
-WIP: Metrics with blank values are currently being calculated from output results, or weren't obtained due to time or storage constraints. These results are coming soon.
 
 ### AI_ArtBench Results
 

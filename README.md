@@ -84,6 +84,8 @@ msai_capstone/
         ├── RIGID_outputs/
         ├── SPAI_outputs/
         ├── LOTA_outputs/
+        ├── DIRE_outputs/
+        ├── SSP_outputs/
         ├── RESNET50_outputs/
         ├── VLM_outputs/
     ├── figures/       # Project figures and visualizations
@@ -131,9 +133,11 @@ WIP: Metrics with blank values are currently being calculated from output result
 | ResNet50         | .985       | .986  | .998   |
 | CLIP             | .642       | .674   | .770   |
 | AEROBLADE        |  -      |  -  | -   |
-| RIGID            | .530       | .5247   | .512   |
-| LOTA             | .333       | -   | -   |
-| SPAI             | -       | -   | -   |
+| RIGID            | .530       | .525   | .512   |
+| LOTA             | .453       | .680   | .513   |
+| SPAI             | .821       | .907  | .873   |
+| DIRE             |  .330       | .664    | .484    |
+| SSP              |  .666      |  .689   | .537    |
 
 
 ### ARIA Results
@@ -143,9 +147,11 @@ WIP: Metrics with blank values are currently being calculated from output result
 | ResNet50         | .899      | .908   | .890  |
 | CLIP             | .875      | .876   | .933   |
 | AEROBLADE        | -     | -   | -   |
-| RIGID            | .946     | .989  | .9879   |
-| LOTA             | .126     | -   | -   |
+| RIGID            | .946     | .989  | .988   |
+| LOTA             | .260     | .840   | .411  |
 | SPAI             | .741      | .969   | .823   |
+| DIRE             |  .137       | .880    | .507    |
+| SSP              | .851        |  .847   | .425    |
 
 
 

@@ -1,0 +1,67 @@
+╔══════════════════════════════════════════╗
+║          TRAINING CONFIGURATION           ║
+╠══════════════════════════════════════════╣
+║            batchsize: 64
+║             bit_mode: scaling
+║              choices: [1, 1, 1, 1, 1, 1, 1, 1]
+║              dataset: artbench
+║                epoch: 10
+║               gpu_id: 1
+║           image_root: Path/to/GenImage--bit_mode=scaling--patch_size=32
+║           img_height: 256
+║              isPatch: True
+║              isTrain: True
+║                isVal: False
+║                 load: None
+║                   lr: 0.0001
+║           patch_mode: max
+║           patch_size: 32
+║            save_path: /home/stu14/s16/acm7552/Capstone/scripts/LOTAsaves
+║        val_batchsize: 64
+╚══════════════════════════════════════════╝
+╔══════════════════════════════════════════╗
+║          TRAINING CONFIGURATION           ║
+╠══════════════════════════════════════════╣
+║            batchsize: 64
+║             bit_mode: scaling
+║              choices: [1, 1, 1, 1, 1, 1, 1, 1]
+║              dataset: artbench
+║                epoch: 10
+║               gpu_id: 1
+║           image_root: Path/to/GenImage--bit_mode=scaling--patch_size=32
+║           img_height: 256
+║              isPatch: True
+║              isTrain: True
+║                isVal: False
+║                 load: None
+║                   lr: 0.0001
+║           patch_mode: max
+║           patch_size: 32
+║            save_path: /home/stu14/s16/acm7552/Capstone/scripts/LOTAsaves
+║        val_batchsize: 64
+╚══════════════════════════════════════════╝
+Preparing validation datasets...
+loading ARIA images
+done loading ARIA
+retrieving Artbench test dataset
+mapping labels
+replacing labels
+replacing class values and indices
+done setting up dataset
+Selected computation device: GPU 1
+Commencing model evaluation
+[Evaluating dataset: ARIA]
+(1) AI Classification Accuracy: 0.1984
+(2) Natural Image Accuracy: 0.6878
+Subset Performance: 0.2597
+Accuracy: 0.2597
+AUC:      0.4111
+AP:       0.8407
+[Evaluating dataset: ArtBench]
+(1) AI Classification Accuracy: 0.3604
+(2) Natural Image Accuracy: 0.6369
+Subset Performance: 0.4526
+Accuracy: 0.4526
+AUC:      0.5131
+AP:       0.6801
+[Global Accuracy: 0.3936]

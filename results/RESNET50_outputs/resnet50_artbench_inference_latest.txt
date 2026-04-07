@@ -1,0 +1,17 @@
+Processed 30001/30001 images
+Test Loss: 0.1634
+Accuracy : 95.2902%
+Precision: 0.9486
+Recall   : 0.9826
+F1 Score : 0.9653
+ROC-AUC  : 0.9897
+
+Classification Report:
+              precision    recall  f1-score   support
+
+        Real       0.96      0.89      0.93     10001
+          AI       0.95      0.98      0.97     20000
+
+    accuracy                           0.95     30001
+   macro avg       0.96      0.94      0.95     30001
+weighted avg       0.95      0.95      0.95     30001

@@ -1,0 +1,87 @@
+/home/stu14/s16/acm7552/miniconda3/envs/spai/lib/python3.11/site-packages/albumentations/__init__.py:13: UserWarning: A new version of Albumentations is available: 2.0.8 (you have 1.4.14). Upgrade using: pip install -U albumentations. To disable automatic update checks, set the environment variable NO_ALBUMENTATIONS_UPDATE to 1.
+  check_for_updates()
+INFO:__main__:Data transform | mode: supervised | split: test:
+Compose([
+  ImageCompression(p=0.0, quality_range=(100, 100), compression_type=0),
+  ImageCompression(p=0.0, quality_range=(100, 100), compression_type=1),
+  GaussianBlur(p=0.0, blur_limit=(3, 3), sigma_limit=(0, 0)),
+  GaussNoise(p=0.0, var_limit=(1.0, 1.0), per_channel=True, mean=0.0, noise_scale_factor=1.0),
+  RandomScale(p=0.0, interpolation=1, scale_limit=(0.0, 0.0)),
+  PadIfNeeded(p=1.0, min_height=224, min_width=224, pad_height_divisor=None, pad_width_divisor=None, position=PositionType.CENTER, border_mode=4, value=None, mask_value=None),
+  Normalize(p=1.0, mean=0.0, std=1.0, max_pixel_value=255.0, normalization='standard'),
+  ToTensorV2(p=1.0, transpose_mask=False),
+], p=1.0, bbox_params=None, keypoint_params=None, additional_targets={}, is_check_shapes=True)
+INFO:__main__:Dataset 'artbenchTest' | Split: test | Total images: 6000 | Source: /home/stu14/s16/acm7552/Capstone/data/Real_AI_SD_LD_Dataset
+INFO:__main__:Creating model:vit/finetune
+INFO:__main__:>>>>>>>>>> Remapping pre-trained keys for VIT ..........
+=> merge config from configs/spai.yaml
+/home/stu14/s16/acm7552/miniconda3/envs/spai/lib/python3.11/site-packages/torchmetrics/utilities/prints.py:43: UserWarning: No positive samples in targets, true positive value should be meaningless. Returning zero tensor in true positive score
+  warnings.warn(*args, **kwargs)  # noqa: B028
+/home/stu14/s16/acm7552/miniconda3/envs/spai/lib/python3.11/site-packages/torchmetrics/utilities/prints.py:43: UserWarning: No positive samples found in target, recall is undefined. Setting recall to one for all thresholds.
+  warnings.warn(*args, **kwargs)  # noqa: B028
+INFO:__main__:Test: [0/6000] | Time 0.769 (0.769) | Loss 0.3318 (0.3318) | Mem 930MB
+INFO:__main__:Test: [100/6000] | Time 0.360 (0.361) | Loss 25.1194 (3.4698) | Mem 930MB
+/home/stu14/s16/acm7552/miniconda3/envs/spai/lib/python3.11/site-packages/torchmetrics/utilities/prints.py:43: UserWarning: No negative samples in targets, false positive value should be meaningless. Returning zero tensor in false positive score
+  warnings.warn(*args, **kwargs)  # noqa: B028
+INFO:__main__:Test: [200/6000] | Time 0.814 (0.363) | Loss 0.0000 (3.9833) | Mem 1243MB
+INFO:__main__:Test: [300/6000] | Time 0.638 (0.454) | Loss 0.0000 (2.6599) | Mem 1243MB
+INFO:__main__:Test: [400/6000] | Time 0.640 (0.501) | Loss 0.0000 (1.9966) | Mem 1243MB
+INFO:__main__:Test: [500/6000] | Time 0.640 (0.529) | Loss 0.0516 (1.6049) | Mem 1243MB
+INFO:__main__:Test: [600/6000] | Time 0.363 (0.547) | Loss 1.3359 (1.3860) | Mem 1243MB
+INFO:__main__:Test: [700/6000] | Time 0.365 (0.521) | Loss 0.0000 (1.2305) | Mem 1243MB
+INFO:__main__:Test: [800/6000] | Time 0.365 (0.502) | Loss 8.9554 (1.1549) | Mem 1243MB
+INFO:__main__:Test: [900/6000] | Time 0.367 (0.487) | Loss 0.0000 (1.7912) | Mem 1243MB
+INFO:__main__:Test: [1000/6000] | Time 0.369 (0.475) | Loss 2.0783 (2.3428) | Mem 1243MB
+INFO:__main__:Test: [1100/6000] | Time 0.368 (0.466) | Loss 0.9393 (2.5203) | Mem 1243MB
+INFO:__main__:Test: [1200/6000] | Time 0.370 (0.458) | Loss 0.0000 (2.6189) | Mem 1243MB
+INFO:__main__:Test: [1300/6000] | Time 0.369 (0.451) | Loss 0.8417 (2.7483) | Mem 1243MB
+INFO:__main__:Test: [1400/6000] | Time 0.649 (0.446) | Loss 0.0000 (2.9488) | Mem 1243MB
+INFO:__main__:Test: [1500/6000] | Time 0.647 (0.460) | Loss 0.0000 (2.7524) | Mem 1243MB
+INFO:__main__:Test: [1600/6000] | Time 0.375 (0.472) | Loss 0.0003 (2.5805) | Mem 1243MB
+INFO:__main__:Test: [1700/6000] | Time 0.372 (0.466) | Loss 0.0000 (2.4322) | Mem 1243MB
+INFO:__main__:Test: [1800/6000] | Time 0.367 (0.462) | Loss 0.0013 (2.2996) | Mem 1243MB
+INFO:__main__:Test: [1900/6000] | Time 0.374 (0.458) | Loss 0.0000 (2.1891) | Mem 1243MB
+INFO:__main__:Test: [2000/6000] | Time 0.654 (0.454) | Loss 0.0000 (2.0853) | Mem 1243MB
+INFO:__main__:Test: [2100/6000] | Time 0.654 (0.464) | Loss 0.0000 (1.9861) | Mem 1243MB
+INFO:__main__:Test: [2200/6000] | Time 0.372 (0.473) | Loss 0.0000 (1.8958) | Mem 1243MB
+INFO:__main__:Test: [2300/6000] | Time 0.379 (0.469) | Loss 0.0000 (1.8239) | Mem 1243MB
+INFO:__main__:Test: [2400/6000] | Time 0.380 (0.466) | Loss 12.2378 (1.7575) | Mem 1243MB
+INFO:__main__:Test: [2500/6000] | Time 0.384 (0.463) | Loss 1.2781 (1.8812) | Mem 1243MB
+INFO:__main__:Test: [2600/6000] | Time 0.380 (0.460) | Loss 0.0000 (2.0450) | Mem 1243MB
+INFO:__main__:Test: [2700/6000] | Time 0.382 (0.458) | Loss 9.8974 (2.0743) | Mem 1243MB
+INFO:__main__:Test: [2800/6000] | Time 0.381 (0.456) | Loss 0.0000 (2.1073) | Mem 1243MB
+INFO:__main__:Test: [2900/6000] | Time 0.384 (0.454) | Loss 0.0000 (2.0438) | Mem 1243MB
+INFO:__main__:Test: [3000/6000] | Time 0.384 (0.452) | Loss 0.0000 (1.9864) | Mem 1243MB
+INFO:__main__:Test: [3100/6000] | Time 0.566 (0.450) | Loss 0.0000 (2.0960) | Mem 1243MB
+INFO:__main__:Test: [3200/6000] | Time 0.386 (0.449) | Loss 0.0000 (2.2355) | Mem 1243MB
+INFO:__main__:Test: [3300/6000] | Time 0.388 (0.447) | Loss 0.0000 (2.1762) | Mem 1243MB
+INFO:__main__:Test: [3400/6000] | Time 0.389 (0.446) | Loss 0.0510 (2.1136) | Mem 1243MB
+INFO:__main__:Test: [3500/6000] | Time 0.390 (0.445) | Loss 0.0000 (2.0558) | Mem 1243MB
+INFO:__main__:Test: [3600/6000] | Time 0.391 (0.444) | Loss 0.0000 (2.0004) | Mem 1243MB
+INFO:__main__:Test: [3700/6000] | Time 0.391 (0.443) | Loss 0.0000 (1.9469) | Mem 1243MB
+INFO:__main__:Test: [3800/6000] | Time 0.672 (0.442) | Loss 0.0000 (1.8988) | Mem 1243MB
+INFO:__main__:Test: [3900/6000] | Time 0.668 (0.448) | Loss 0.0000 (1.8502) | Mem 1243MB
+INFO:__main__:Test: [4000/6000] | Time 0.674 (0.454) | Loss 0.0562 (1.8042) | Mem 1243MB
+INFO:__main__:Test: [4100/6000] | Time 0.673 (0.460) | Loss 0.0014 (1.7838) | Mem 1243MB
+INFO:__main__:Test: [4200/6000] | Time 0.399 (0.466) | Loss 0.5328 (1.7640) | Mem 1243MB
+INFO:__main__:Test: [4300/6000] | Time 0.398 (0.465) | Loss 0.5465 (1.8225) | Mem 1243MB
+INFO:__main__:Test: [4400/6000] | Time 0.397 (0.464) | Loss 0.0000 (1.8525) | Mem 1243MB
+INFO:__main__:Test: [4500/6000] | Time 0.400 (0.463) | Loss 0.0000 (1.8139) | Mem 1243MB
+INFO:__main__:Test: [4600/6000] | Time 0.400 (0.462) | Loss 0.0000 (1.7788) | Mem 1243MB
+INFO:__main__:Test: [4700/6000] | Time 0.401 (0.461) | Loss 0.0000 (1.8314) | Mem 1243MB
+INFO:__main__:Test: [4800/6000] | Time 0.680 (0.460) | Loss 0.0000 (1.8695) | Mem 1243MB
+INFO:__main__:Test: [4900/6000] | Time 0.680 (0.465) | Loss 0.0000 (1.8314) | Mem 1243MB
+INFO:__main__:Test: [5000/6000] | Time 0.407 (0.470) | Loss 0.0000 (1.7949) | Mem 1243MB
+INFO:__main__:Test: [5100/6000] | Time 0.405 (0.469) | Loss 0.0000 (1.7892) | Mem 1243MB
+INFO:__main__:Test: [5200/6000] | Time 0.683 (0.468) | Loss 0.0000 (1.7722) | Mem 1243MB
+INFO:__main__:Test: [5300/6000] | Time 0.683 (0.473) | Loss 0.0000 (1.7388) | Mem 1243MB
+INFO:__main__:Test: [5400/6000] | Time 0.410 (0.477) | Loss 0.0000 (1.7066) | Mem 1243MB
+INFO:__main__:Test: [5500/6000] | Time 0.441 (0.476) | Loss 0.0000 (1.6761) | Mem 1243MB
+INFO:__main__:Test: [5600/6000] | Time 0.687 (0.476) | Loss 0.0319 (1.6527) | Mem 1243MB
+INFO:__main__:Test: [5700/6000] | Time 0.688 (0.480) | Loss 0.0006 (1.6263) | Mem 1243MB
+INFO:__main__:Test: [5800/6000] | Time 0.689 (0.484) | Loss 0.0000 (1.6023) | Mem 1243MB
+INFO:__main__:Test: [5900/6000] | Time 0.691 (0.488) | Loss 0.0000 (1.5777) | Mem 1243MB
+INFO:__main__:Test | artbenchTest | Images: 6000 | loss: 1.5529
+INFO:__main__:Test | artbenchTest | Images: 6000 | ACC: 0.821
+INFO:__main__:Test | artbenchTest | Images: 6000 | AP: 0.907
+INFO:__main__:Test | artbenchTest | Images: 6000 | AUC: 0.873

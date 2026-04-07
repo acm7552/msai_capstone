@@ -1,8 +1,11 @@
 ### SOURCE REPOS ###
 
 scripts/aeroblade/*
+scripts/RIGID/*
 scripts/spai/*
 scripts/LOTA/*
+scripts/DIRE/*
+scripts/SSP-AI-Generated-Image-Detection/*
 
 # keep the directories themselves
 !scripts/aeroblade
@@ -11,6 +14,8 @@ scripts/LOTA/*
 !scripts/LOTA/loader.py
 !scripts/LOTA/config.py
 !scripts/spai
+!scripts/DIRE
+!scripts/SSP-AI-Generated-Image-Detection
 
 ### MODELS ###
 # Do not upload model checkpoints.
@@ -18,10 +23,10 @@ scripts/LOTA/*
 **/*.pt
 **/*.pth
 
-### AEROBLADE RECONSTRUCTIONS ###
-# 
+### AEROBLADE RECONSTRUCTIONS ### 
 **/aeroblade_output/
-
+scripts/aeroblade/output
+scripts/aeroblade/data
 
 ### DATA ###
 

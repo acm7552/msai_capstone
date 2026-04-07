@@ -1,0 +1,22 @@
+load data...
+loading ARIA images
+done loading ARIA
+ARIA val loader complete
+retrieving Artbench test dataset
+mapping labels
+replacing labels
+replacing class values and indices
+done setting up dataset
+ArtBench val loader complete
+USE GPU 1
+load model from /home/stu14/s16/acm7552/Capstone/models/ssp.pth
+Start train
+val on: ARIA
+ai accu: 0.9721933007240295
+nature accu:0.007259528152644634
+val on:ARIA, Accuracy:0.8513298630714417, AP:0.8474, AUC:0.4255
+val on: ArtBench
+ai accu: 0.9988499879837036
+nature accu:0.000499950023368001
+val on:ArtBench, Accuracy:0.6660444140434265, AP:0.6892, AUC:0.5366
+Overall Accuracy:0.7226491570472717

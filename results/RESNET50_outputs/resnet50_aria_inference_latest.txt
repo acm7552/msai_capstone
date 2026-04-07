@@ -1,0 +1,16 @@
+Test Loss: 0.3190
+Accuracy : 87.6032%
+Precision: 0.8764
+Recall   : 0.9992
+F1 Score : 0.9338
+ROC-AUC  : 0.7885
+
+Classification Report:
+              precision    recall  f1-score   support
+
+        Real       0.74      0.02      0.03      1653
+          AI       0.88      1.00      0.93     11544
+
+    accuracy                           0.88     13197
+   macro avg       0.81      0.51      0.48     13197
+weighted avg       0.86      0.88      0.82     13197

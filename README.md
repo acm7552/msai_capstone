@@ -132,6 +132,7 @@ See respective repository READMEs for setting up the proper Python environment, 
 ## Results & Visualization
 
 WIP: Metrics with blank values are currently being calculated from output results, or weren't obtained due to time or storage constraints. These results are coming soon.
+
 ### AI_ArtBench Results
 
 | Model              | Acc | AP   | AUC  |

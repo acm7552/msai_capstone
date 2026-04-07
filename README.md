@@ -65,6 +65,10 @@ Clone the following repositories and follow their respective installation guides
 
 #### LOTA: LOTA: Bit-Planes Guided AI-Generated Image Detection: https://github.com/hongsong-wang/LOTA
 
+#### DIRE for Diffusion-Generated Image Detection: https://github.com/zhendongwang6/dire
+
+#### SSP-AI-Generated-Image-Detection: https://github.com/bcmi/SSP-AI-Generated-Image-Detection/tree/main
+
 ## Project Structure
 
 ```
@@ -77,6 +81,8 @@ msai_capstone/
         ├── SPAI/
         ├── LOTA/
         ├── RIGID/
+        ├── DIRE/
+        ├── SSP/
     ├── models/        # Trained model checkpoints
     ├── notebooks/     # Jupyter notebooks for analysis
     ├── results/       # Experimental results and metrics
@@ -132,7 +138,7 @@ WIP: Metrics with blank values are currently being calculated from output result
 |-------------------|----------|------|------|
 | ResNet50         | .985       | .986  | .998   |
 | CLIP             | .642       | .674   | .770   |
-| AEROBLADE        |  -      |  -  | -   |
+| AEROBLADE        | .481      |  .406  | .310   |
 | RIGID            | .530       | .525   | .512   |
 | LOTA             | .453       | .680   | .513   |
 | SPAI             | .821       | .907  | .873   |
@@ -146,7 +152,7 @@ WIP: Metrics with blank values are currently being calculated from output result
 |-------------------|----------|------|------|
 | ResNet50         | .899      | .908   | .890  |
 | CLIP             | .875      | .876   | .933   |
-| AEROBLADE        | -     | -   | -   |
+| AEROBLADE        | .486     | .403   | .311   |
 | RIGID            | .946     | .989  | .988   |
 | LOTA             | .260     | .840   | .411  |
 | SPAI             | .741      | .969   | .823   |
@@ -207,6 +213,26 @@ The following works were selected for for this study. We thank their authors for
 }
 ```
 
+```bibtex
+@article{wang2023dire,
+  title={DIRE for Diffusion-Generated Image Detection},
+  author={Wang, Zhendong and Bao, Jianmin and Zhou, Wengang and Wang, Weilun and Hu, Hezhen and Chen, Hong and Li, Houqiang},
+  journal={arXiv preprint arXiv:2303.09295},
+  year={2023}
+}
+```
+
+```bibtex
+@misc{chen2024singlesimplepatchneed,
+      title={A Single Simple Patch is All You Need for AI-generated Image Detection}, 
+      author={Jiaxuan Chen and Jieteng Yao and Li Niu},
+      year={2024},
+      eprint={2402.01123},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2402.01123}, 
+}
+```
 
 ## Citation
 

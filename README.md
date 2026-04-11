@@ -146,7 +146,7 @@ See respective repository READMEs for setting up the proper Python environment, 
 | ResNet50         | .985       | .986  | .998   |
 | CLIP             | .642       | .674   | .770   |
 | AEROBLADE        | .481      |  .406  | .310   |
-| RIGID            | .530       | .525   | .512   |
+| RIGID            | .673       | .709   | .644   |
 | LOTA             | .453       | .680   | .513   |
 | SPAI             | .821       | .907  | .873   |
 | DIRE             |  .330       | .664    | .484    |
@@ -160,7 +160,7 @@ See respective repository READMEs for setting up the proper Python environment, 
 | ResNet50         | .899      | .908   | .890  |
 | CLIP             | .875      | .876   | .933   |
 | AEROBLADE        | .486     | .403   | .311   |
-| RIGID            | .946     | .989  | .988   |
+| RIGID            | .505     | .432  | .424   |
 | LOTA             | .260     | .840   | .411  |
 | SPAI             | .741      | .969   | .823   |
 | DIRE             |  .137       | .880    | .507    |
